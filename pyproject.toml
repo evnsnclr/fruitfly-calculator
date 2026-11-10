@@ -1,5 +1,5 @@
 [project]
-name = "fruitfly-calc"
+name = "fruitfly-calculator"
 version = "1.0.0"
 description = "Male Drosophila CNS connectome as a spiking simulation on a TI-Nspire CX II"
 requires-python = ">=3.11"
