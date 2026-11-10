@@ -1,0 +1,246 @@
+{
+  "ms": 1000,
+  "w_syn_mv": 0.2,
+  "scenarios": [
+    {
+      "scenario": "Sugar on tongue",
+      "calc_spikes": 43992,
+      "ref_spikes": [
+        41838,
+        43809
+      ],
+      "calc_active": 1138,
+      "ref_active": [
+        1208,
+        1171
+      ],
+      "r_calc_vs_ref": 0.9742074892553947,
+      "r_ref_vs_ref": 0.9676925930211349
+    },
+    {
+      "scenario": "Looming shadow",
+      "calc_spikes": 122381,
+      "ref_spikes": [
+        127124,
+        125944
+      ],
+      "calc_active": 3035,
+      "ref_active": [
+        3132,
+        3086
+      ],
+      "r_calc_vs_ref": 0.9821947824669485,
+      "r_ref_vs_ref": 0.9894351585471849
+    },
+    {
+      "scenario": "Courtship P1",
+      "calc_spikes": 65364,
+      "ref_spikes": [
+        68218,
+        69441
+      ],
+      "calc_active": 2333,
+      "ref_active": [
+        2566,
+        2700
+      ],
+      "r_calc_vs_ref": 0.9482080526323471,
+      "r_ref_vs_ref": 0.953933112956426
+    },
+    {
+      "scenario": "Song cmd pIP10",
+      "calc_spikes": 9938,
+      "ref_spikes": [
+        11188,
+        11895
+      ],
+      "calc_active": 274,
+      "ref_active": [
+        459,
+        934
+      ],
+      "r_calc_vs_ref": 0.9721205867931134,
+      "r_ref_vs_ref": 0.9663434204606302
+    },
+    {
+      "scenario": "Lick cmd aSP22",
+      "calc_spikes": 13052,
+      "ref_spikes": [
+        18429,
+        18638
+      ],
+      "calc_active": 1901,
+      "ref_active": [
+        2137,
+        2232
+      ],
+      "r_calc_vs_ref": 0.9119720945334931,
+      "r_ref_vs_ref": 0.9422276990442444
+    },
+    {
+      "scenario": "Moonwalker MDN",
+      "calc_spikes": 21141,
+      "ref_spikes": [
+        20069,
+        22146
+      ],
+      "calc_active": 1560,
+      "ref_active": [
+        1875,
+        1897
+      ],
+      "r_calc_vs_ref": 0.9326933193981574,
+      "r_ref_vs_ref": 0.9392255305760822
+    },
+    {
+      "scenario": "Groom cmd aDN1",
+      "calc_spikes": 76387,
+      "ref_spikes": [
+        80795,
+        79460
+      ],
+      "calc_active": 2009,
+      "ref_active": [
+        2050,
+        2082
+      ],
+      "r_calc_vs_ref": 0.9855249022652955,
+      "r_ref_vs_ref": 0.9857651994857778
+    },
+    {
+      "scenario": "Dust on eyes",
+      "calc_spikes": 135345,
+      "ref_spikes": [
+        134425,
+        133568
+      ],
+      "calc_active": 3092,
+      "ref_active": [
+        3109,
+        3101
+      ],
+      "r_calc_vs_ref": 0.9828886082005098,
+      "r_ref_vs_ref": 0.9801022422602517
+    },
+    {
+      "scenario": "Optic flow",
+      "calc_spikes": 190031,
+      "ref_spikes": [
+        188329,
+        189805
+      ],
+      "calc_active": 6872,
+      "ref_active": [
+        6884,
+        6967
+      ],
+      "r_calc_vs_ref": 0.9677125366510522,
+      "r_ref_vs_ref": 0.9790298231299785
+    },
+    {
+      "scenario": "Compass EPG",
+      "calc_spikes": 4805,
+      "ref_spikes": [
+        4517,
+        4539
+      ],
+      "calc_active": 123,
+      "ref_active": [
+        124,
+        129
+      ],
+      "r_calc_vs_ref": 0.9993203500259532,
+      "r_ref_vs_ref": 0.9993784276480939
+    },
+    {
+      "scenario": "Chase LC10a",
+      "calc_spikes": 38293,
+      "ref_spikes": [
+        38267,
+        38410
+      ],
+      "calc_active": 1145,
+      "ref_active": [
+        1173,
+        1180
+      ],
+      "r_calc_vs_ref": 0.9881927026257434,
+      "r_ref_vs_ref": 0.9769144433423382
+    },
+    {
+      "scenario": "Female pheromone",
+      "calc_spikes": 9630,
+      "ref_spikes": [
+        23452,
+        14156
+      ],
+      "calc_active": 259,
+      "ref_active": [
+        2434,
+        1985
+      ],
+      "r_calc_vs_ref": 0.4757520704990303,
+      "r_ref_vs_ref": 0.8809762908382217
+    },
+    {
+      "scenario": "Wing load sensors",
+      "calc_spikes": 46175,
+      "ref_spikes": [
+        44880,
+        45156
+      ],
+      "calc_active": 1764,
+      "ref_active": [
+        1788,
+        1879
+      ],
+      "r_calc_vs_ref": 0.9744560240985871,
+      "r_ref_vs_ref": 0.9647234056013929
+    },
+    {
+      "scenario": "Bitter taste",
+      "calc_spikes": 12117,
+      "ref_spikes": [
+        12195,
+        11997
+      ],
+      "calc_active": 437,
+      "ref_active": [
+        477,
+        442
+      ],
+      "r_calc_vs_ref": 0.975384099959096,
+      "r_ref_vs_ref": 0.9710919044140923
+    },
+    {
+      "scenario": "Sound (JO-A/B)",
+      "calc_spikes": 10491,
+      "ref_spikes": [
+        10673,
+        10680
+      ],
+      "calc_active": 445,
+      "ref_active": [
+        524,
+        506
+      ],
+      "r_calc_vs_ref": 0.9498039661359886,
+      "r_ref_vs_ref": 0.962537717765475
+    },
+    {
+      "scenario": "Giant fiber",
+      "calc_spikes": 698,
+      "ref_spikes": [
+        1099,
+        1202
+      ],
+      "calc_active": 27,
+      "ref_active": [
+        122,
+        159
+      ],
+      "r_calc_vs_ref": 0.9275764398713395,
+      "r_ref_vs_ref": 0.951564400335999
+    }
+  ]
+}

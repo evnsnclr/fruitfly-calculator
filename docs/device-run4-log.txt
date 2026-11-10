@@ -1,0 +1,47 @@
+flycns 1.5 boot
+timer_hz=12000000 cx2=1 ndless_rev=2023
+ C2:ctl=42,load=2ee0,ticks=597719 D2:ctl=80,load=ffff,ticks=0 C1:ctl=20,load=0,ticks=0
+loaded ms=12822 chunks=83 pool_first=73
+resident=18717500 total=30903060 malloc_ran_dry=1
+spare_64k_blocks=39 clock=1
+cp15 cache_type=1d112152 control=0005107f ttbr=a4004000
+map cells addr=1267ada0 l1=00000000 l2=00000000
+map arena addr=12906080 l1=00000000 l2=00000000
+map meta addr=12546098 l1=00000000 l2=00000000
+map code addr=1241b988 l1=00000000 l2=00000000
+map bss addr=1246a454 l1=00000000 l2=00000000
+map lcd addr=a8000000 l1=00000000 l2=00000000
+map heap addr=13df0b90 l1=00000000 l2=00000000
+mem ns: loop=17 rand_read=307 rand_rmw=357 seq_read_4x512k_ms=23
+mem ns: small_store=20 small_test=35 mixed_store=405 mixed_test=410
+rows: decode edges=1842724 ms=458 | apply edges=1842724 ms=1239
+step: all_awake_ms=102 sweep_ms=68 catch_up_ms=391 replayed=4000800
+step: idle_200_steps_ms=111 spikes=0
+draw: present_10_ms=43 render_10_ms=87
+fault_ms=18 faults=87 flushes=0
+test0 scn=3 steps=200 spikes=1860/1860 hash=017b8d54/017b8d54 OK
+test1 scn=1 steps=60 spikes=6281/6281 hash=6444afe9/6444afe9 OK
+selftest PASS edges=2920685 ms=4131 eps=707016 faults=103 flushes=0
+
+selftest=1 skip_reason=0 ioerr=0
+frames=50 step=280 speed_permille=46
+tour scn=0 ms=9129 steps=355 spikes=15493 edges=4891951 eps=535869 faults=113 promo=0 gens=0 ioerr=0 render_ms=8 awake=518 stepped=152758 replayed=22739071
+tour scn=1 ms=9055 steps=168 spikes=19410 edges=7743466 eps=855159 faults=130 promo=0 gens=0 ioerr=0 render_ms=8 awake=1195 stepped=225080 replayed=11410671
+tour scn=2 ms=9004 steps=262 spikes=16560 edges=6877376 eps=763813 faults=155 promo=0 gens=0 ioerr=0 render_ms=8 awake=650 stepped=204043 replayed=16327576
+tour scn=3 ms=9064 steps=2095 spikes=21182 edges=4482650 eps=494555 faults=155 promo=0 gens=0 ioerr=0 render_ms=8 awake=43 stepped=214917 replayed=17728652
+tour scn=4 ms=9001 steps=1063 spikes=13722 edges=5291958 eps=587930 faults=161 promo=0 gens=0 ioerr=0 render_ms=8 awake=258 stepped=202451 replayed=33542890
+tour scn=5 ms=9052 steps=690 spikes=14816 edges=5829485 eps=643999 faults=161 promo=0 gens=0 ioerr=0 render_ms=8 awake=320 stepped=187040 replayed=39414678
+frames=500 step=92 speed_permille=45
+tour scn=6 ms=9039 steps=151 spikes=9910 edges=6044644 eps=668729 faults=191 promo=3 gens=1 ioerr=0 render_ms=8 awake=806 stepped=122002 replayed=12865871
+tour scn=7 ms=9054 steps=162 spikes=20656 edges=7289545 eps=805118 faults=212 promo=29 gens=1 ioerr=0 render_ms=8 awake=1199 stepped=174981 replayed=14826040
+tour scn=8 ms=9168 steps=92 spikes=16047 edges=3957094 eps=431620 faults=272 promo=35 gens=1 ioerr=0 render_ms=8 awake=1704 stepped=133750 replayed=6385942
+tour scn=9 ms=9021 steps=2179 spikes=10346 edges=3058274 eps=339017 faults=272 promo=35 gens=1 ioerr=0 render_ms=8 awake=30 stepped=102817 replayed=5666967
+tour scn=10 ms=9095 steps=488 spikes=18673 edges=7366672 eps=809969 faults=274 promo=35 gens=1 ioerr=0 render_ms=8 awake=467 stepped=172000 replayed=24013309
+tour scn=11 ms=9052 steps=1978 spikes=19267 edges=4700137 eps=519237 faults=274 promo=35 gens=1 ioerr=0 render_ms=8 awake=46 stepped=124778 replayed=29358693
+tour scn=12 ms=9015 steps=612 spikes=27922 edges=7206307 eps=799368 faults=279 promo=36 gens=1 ioerr=0 render_ms=8 awake=357 stepped=286177 replayed=18726317
+tour scn=13 ms=9034 steps=1891 spikes=22068 edges=4529556 eps=501389 faults=279 promo=38 gens=1 ioerr=0 render_ms=8 awake=52 stepped=224888 replayed=26942129
+tour scn=14 ms=9041 steps=1835 spikes=19334 edges=3981112 eps=440339 faults=283 promo=38 gens=1 ioerr=0 render_ms=8 awake=124 stepped=169569 replayed=30166260
+tour scn=15 ms=9021 steps=2179 spikes=1523 edges=651791 eps=72252 faults=283 promo=38 gens=1 ioerr=0 render_ms=8 awake=9 stepped=33089 replayed=8601618
+exit frames=1354 spikes=17162 eps=727535
+exit clock_ms=178845 rtc_s=179 render_ms=8
+exit faults=283 flushes=1 step=395

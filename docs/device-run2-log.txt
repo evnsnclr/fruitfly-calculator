@@ -1,0 +1,95 @@
+flycns 1.3 boot
+timer_hz=11748860 cx2=1 ndless_rev=2023
+ C2:ctl=42,load=2ee0,ticks=587443 D2:ctl=80,load=ffff,ticks=0 C1:ctl=20,load=0,ticks=0
+loaded ms=16487 chunks=80 pool_first=70
+resident=17943619 total=30903060 malloc_ran_dry=1
+spare_64k_blocks=69 clock=1
+fault_ms=21 faults=92 flushes=0
+test0 scn=3 steps=200 spikes=1860/1860 hash=017b8d54/017b8d54 OK
+test1 scn=1 steps=60 spikes=6281/6281 hash=6444afe9/6444afe9 OK
+selftest PASS edges=2920685 ms=9152 eps=319130 faults=121 flushes=0
+
+selftest=1 skip_reason=0 ioerr=0
+frames=50 step=92 speed_permille=19
+tour scn=0 ms=9001 steps=108 spikes=4548 edges=1438564 eps=159822 faults=134 flushes=0 ioerr=0
+tour scn=1 ms=9071 steps=96 spikes=11113 edges=4450433 eps=490622 faults=140 flushes=0 ioerr=0
+tour scn=2 ms=9029 steps=108 spikes=6383 edges=2552369 eps=282685 faults=165 flushes=0 ioerr=0
+tour scn=3 ms=9061 steps=722 spikes=6858 edges=1437049 eps=158597 faults=165 flushes=0 ioerr=0
+tour scn=4 ms=9031 steps=241 spikes=2155 edges=722944 eps=80051 faults=165 flushes=0 ioerr=0
+tour scn=5 ms=9016 steps=205 spikes=3203 edges=1099568 eps=121957 faults=167 flushes=0 ioerr=0
+tour scn=6 ms=9056 steps=96 spikes=5478 edges=3331407 eps=367867 faults=188 flushes=1 ioerr=0
+tour scn=7 ms=9108 steps=85 spikes=10051 edges=3327012 eps=365284 faults=209 flushes=1 ioerr=0
+tour scn=8 ms=9062 steps=31 spikes=4252 edges=876287 eps=96699 faults=288 flushes=1 ioerr=0
+tour scn=9 ms=9009 steps=1466 spikes=7113 edges=2097530 eps=232826 faults=288 flushes=1 ioerr=0
+tour scn=10 ms=9058 steps=148 spikes=5497 edges=2167603 eps=239302 faults=290 flushes=1 ioerr=0
+tour scn=11 ms=9053 steps=445 spikes=4323 edges=1032290 eps=114027 faults=290 flushes=1 ioerr=0
+tour scn=12 ms=9011 steps=202 spikes=9133 edges=2387049 eps=264903 faults=296 flushes=1 ioerr=0
+tour scn=13 ms=9084 steps=462 spikes=5557 edges=1135192 eps=124966 faults=296 flushes=1 ioerr=0
+tour scn=14 ms=9048 steps=438 spikes=4551 edges=889301 eps=98287 faults=296 flushes=1 ioerr=0
+tour scn=15 ms=9048 steps=945 spikes=662 edges=286926 eps=31711 faults=296 flushes=1 ioerr=0
+tour scn=0 ms=9030 steps=158 spikes=6532 edges=1992975 eps=220705 faults=296 flushes=1 ioerr=0
+tour scn=1 ms=9038 steps=92 spikes=10466 edges=4164479 eps=460774 faults=307 flushes=2 ioerr=0
+tour scn=2 ms=9053 steps=110 spikes=6493 edges=2612849 eps=288616 faults=329 flushes=2 ioerr=0
+tour scn=3 ms=9061 steps=722 spikes=6858 edges=1437049 eps=158597 faults=329 flushes=2 ioerr=0
+tour scn=4 ms=9049 steps=242 spikes=2161 edges=727229 eps=80365 faults=329 flushes=2 ioerr=0
+frames=2000 step=119 speed_permille=17
+tour scn=5 ms=9015 steps=203 spikes=3173 edges=1094809 eps=121443 faults=331 flushes=2 ioerr=0
+tour scn=6 ms=9038 steps=107 spikes=6537 edges=3960552 eps=438211 faults=335 flushes=2 ioerr=0
+tour scn=7 ms=9066 steps=95 spikes=11369 edges=3813213 eps=420605 faults=345 flushes=2 ioerr=0
+tour scn=8 ms=9066 steps=41 spikes=6044 edges=1340146 eps=147821 faults=406 flushes=3 ioerr=0
+tour scn=9 ms=9026 steps=1469 spikes=7125 edges=2102301 eps=232916 faults=406 flushes=3 ioerr=0
+tour scn=10 ms=9051 steps=150 spikes=5567 edges=2199988 eps=243065 faults=408 flushes=3 ioerr=0
+tour scn=11 ms=9037 steps=444 spikes=4307 edges=1029469 eps=113917 faults=408 flushes=3 ioerr=0
+tour scn=12 ms=9054 steps=203 spikes=9165 edges=2393667 eps=264376 faults=414 flushes=3 ioerr=0
+tour scn=13 ms=9064 steps=461 spikes=5538 edges=1131104 eps=124790 faults=414 flushes=3 ioerr=0
+tour scn=14 ms=9015 steps=437 spikes=4546 edges=889237 eps=98639 faults=414 flushes=3 ioerr=0
+tour scn=15 ms=9035 steps=945 spikes=662 edges=286926 eps=31757 faults=414 flushes=3 ioerr=0
+tour scn=0 ms=9058 steps=144 spikes=5928 edges=1803746 eps=199132 faults=425 flushes=3 ioerr=0
+tour scn=1 ms=9065 steps=97 spikes=11265 edges=4494953 eps=495858 faults=429 flushes=3 ioerr=0
+tour scn=2 ms=9023 steps=125 spikes=7479 edges=3103903 eps=343999 faults=433 flushes=4 ioerr=0
+tour scn=3 ms=9061 steps=722 spikes=6858 edges=1437049 eps=158597 faults=433 flushes=4 ioerr=0
+tour scn=4 ms=9049 steps=242 spikes=2161 edges=727229 eps=80365 faults=433 flushes=4 ioerr=0
+tour scn=5 ms=9094 steps=209 spikes=3255 edges=1110517 eps=122115 faults=435 flushes=4 ioerr=0
+tour scn=6 ms=9055 steps=95 spikes=5373 edges=3280180 eps=362250 faults=457 flushes=4 ioerr=0
+tour scn=7 ms=9084 steps=87 spikes=10334 edges=3416865 eps=376141 faults=477 flushes=4 ioerr=0
+tour scn=8 ms=9380 steps=78 spikes=13086 edges=3212365 eps=342469 faults=504 flushes=4 ioerr=0
+tour scn=9 ms=9026 steps=1469 spikes=7125 edges=2102301 eps=232916 faults=504 flushes=4 ioerr=0
+tour scn=10 ms=9045 steps=154 spikes=5741 edges=2258907 eps=249740 faults=504 flushes=4 ioerr=0
+frames=4000 step=45 speed_permille=16
+tour scn=11 ms=9067 steps=445 spikes=4323 edges=1032290 eps=113851 faults=504 flushes=4 ioerr=0
+tour scn=12 ms=9032 steps=209 spikes=9382 edges=2454546 eps=271761 faults=504 flushes=4 ioerr=0
+tour scn=13 ms=9036 steps=461 spikes=5538 edges=1131104 eps=125177 faults=504 flushes=4 ioerr=0
+tour scn=14 ms=9045 steps=438 spikes=4551 edges=889301 eps=98319 faults=504 flushes=4 ioerr=0
+tour scn=15 ms=9035 steps=945 spikes=662 edges=286926 eps=31757 faults=504 flushes=4 ioerr=0
+tour scn=0 ms=9063 steps=150 spikes=6212 edges=1875722 eps=206964 faults=514 flushes=5 ioerr=0
+tour scn=1 ms=9019 steps=78 spikes=8452 edges=3390658 eps=375946 faults=542 flushes=5 ioerr=0
+tour scn=2 ms=9032 steps=115 spikes=6767 edges=2749145 eps=304378 faults=560 flushes=5 ioerr=0
+tour scn=3 ms=9049 steps=721 spikes=6854 edges=1434184 eps=158490 faults=560 flushes=5 ioerr=0
+tour scn=4 ms=9018 steps=241 spikes=2155 edges=722944 eps=80166 faults=560 flushes=5 ioerr=0
+tour scn=5 ms=9079 steps=213 spikes=3332 edges=1124903 eps=123901 faults=560 flushes=5 ioerr=0
+tour scn=6 ms=9052 steps=107 spikes=6537 edges=3960552 eps=437533 faults=564 flushes=5 ioerr=0
+tour scn=7 ms=9065 steps=95 spikes=11369 edges=3813213 eps=420652 faults=574 flushes=5 ioerr=0
+tour scn=8 ms=9058 steps=36 spikes=5163 edges=1130280 eps=124782 faults=642 flushes=6 ioerr=0
+tour scn=9 ms=9016 steps=1467 spikes=7117 edges=2100053 eps=232925 faults=642 flushes=6 ioerr=0
+tour scn=10 ms=9038 steps=150 spikes=5567 edges=2199988 eps=243415 faults=644 flushes=6 ioerr=0
+tour scn=11 ms=9037 steps=444 spikes=4307 edges=1029469 eps=113917 faults=644 flushes=6 ioerr=0
+tour scn=12 ms=9040 steps=203 spikes=9165 edges=2393667 eps=264786 faults=650 flushes=6 ioerr=0
+tour scn=13 ms=9065 steps=461 spikes=5538 edges=1131104 eps=124777 faults=650 flushes=6 ioerr=0
+tour scn=14 ms=9014 steps=437 spikes=4546 edges=889237 eps=98650 faults=650 flushes=6 ioerr=0
+frames=6000 step=616 speed_permille=104
+tour scn=15 ms=9024 steps=942 spikes=661 edges=286271 eps=31723 faults=650 flushes=6 ioerr=0
+tour scn=0 ms=9042 steps=158 spikes=6532 edges=1992975 eps=220413 faults=650 flushes=6 ioerr=0
+tour scn=1 ms=9065 steps=97 spikes=11265 edges=4494953 eps=495858 faults=654 flushes=6 ioerr=0
+tour scn=2 ms=9010 steps=125 spikes=7479 edges=3103903 eps=344495 faults=658 flushes=7 ioerr=0
+tour scn=3 ms=9061 steps=722 spikes=6858 edges=1437049 eps=158597 faults=658 flushes=7 ioerr=0
+tour scn=4 ms=9017 steps=241 spikes=2155 edges=722944 eps=80175 faults=658 flushes=7 ioerr=0
+tour scn=5 ms=9016 steps=205 spikes=3203 edges=1099568 eps=121957 faults=660 flushes=7 ioerr=0
+tour scn=6 ms=9055 steps=95 spikes=5373 edges=3280180 eps=362250 faults=682 flushes=7 ioerr=0
+tour scn=7 ms=9084 steps=87 spikes=10334 edges=3416865 eps=376141 faults=702 flushes=7 ioerr=0
+tour scn=8 ms=9262 steps=78 spikes=13086 edges=3212365 eps=346832 faults=730 flushes=7 ioerr=0
+tour scn=9 ms=9026 steps=1469 spikes=7125 edges=2102301 eps=232916 faults=730 flushes=7 ioerr=0
+tour scn=10 ms=9008 steps=153 spikes=5693 edges=2247851 eps=249539 faults=730 flushes=7 ioerr=0
+tour scn=11 ms=9053 steps=445 spikes=4323 edges=1032290 eps=114027 faults=730 flushes=7 ioerr=0
+tour scn=12 ms=9073 steps=210 spikes=9421 edges=2459024 eps=271026 faults=730 flushes=7 ioerr=0
+tour scn=13 ms=9055 steps=462 spikes=5557 edges=1135192 eps=125366 faults=730 flushes=7 ioerr=0
+tour scn=14 ms=9015 steps=437 spikes=4546 edges=889237 eps=98639 faults=730 flushes=7 ioerr=0

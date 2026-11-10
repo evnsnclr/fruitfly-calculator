@@ -1,0 +1,9 @@
+flycns 1.1 boot
+timer_hz=0 cx2=1 ndless_rev=2023
+loaded ms=1 chunks=19 pool_first=17
+resident=17705491 total=30903060 malloc_ran_dry=1
+test0 scn=3 steps=300 spikes=2968/2968 hash=55f1549c/55f1549c OK
+test1 scn=1 steps=150 spikes=17460/17460 hash=91e81f31/91e81f31 OK
+selftest PASS edges=7623352 ms=1 eps=3328384704
+
+faults=10613 flushes=49 selftest=1

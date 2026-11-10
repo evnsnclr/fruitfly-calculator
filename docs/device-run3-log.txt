@@ -1,0 +1,45 @@
+flycns 1.4 boot
+timer_hz=12000000 cx2=1 ndless_rev=2023
+ C2:ctl=42,load=2ee0,ticks=597988 D2:ctl=80,load=ffff,ticks=0 C1:ctl=20,load=0,ticks=0
+loaded ms=17628 chunks=87 pool_first=77
+resident=19737955 total=30903060 malloc_ran_dry=1
+spare_64k_blocks=38 clock=1
+cp15 cache_type=1d112152 control=0005107f ttbr=a4004000
+map g addr=1267ad88 l1=00000000 l2=00000000
+map arena addr=12746598 l1=00000000 l2=00000000
+map meta addr=12546098 l1=00000000 l2=00000000
+map code addr=123145d0 l1=00000000 l2=00000000
+map bss addr=12362f64 l1=00000000 l2=00000000
+map lcd addr=a8000000 l1=00000000 l2=00000000
+mem ns: loop=25 rand_read=420 rand_rmw=492 seq_read_4x667k_ms=40
+mem ns: small_store=27 small_test=47 mixed_store=555 mixed_test=562
+rows: decode edges=1864675 ms=618 | apply edges=1864675 ms=1319
+step: dense_3_steps_ms=202 idle_200_steps_ms=39 spikes=0
+draw: present_10_ms=59 render_10_ms=122
+fault_ms=22 faults=86 flushes=0
+test0 scn=3 steps=200 spikes=1860/1860 hash=017b8d54/017b8d54 OK
+test1 scn=1 steps=60 spikes=6281/6281 hash=6444afe9/6444afe9 OK
+selftest PASS edges=2920685 ms=7276 eps=401413 faults=91 flushes=0
+
+selftest=1 skip_reason=0 ioerr=0
+frames=50 step=133 speed_permille=12
+tour scn=0 ms=9054 steps=135 spikes=5610 edges=1726210 eps=190657 faults=93 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=1 ms=9412 steps=102 spikes=11841 edges=4732499 eps=502815 faults=97 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=2 ms=9038 steps=126 spikes=7550 edges=3131123 eps=346439 faults=108 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=3 ms=9062 steps=761 spikes=7226 edges=1511011 eps=166741 faults=108 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=4 ms=9057 steps=255 spikes=2298 edges=769302 eps=84940 faults=108 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=5 ms=9108 steps=220 spikes=3508 edges=1175946 eps=129111 faults=108 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=6 ms=9139 steps=111 spikes=6807 edges=4165257 eps=455767 faults=111 promo=0 gens=0 ioerr=0 render_ms=12
+frames=500 step=74 speed_permille=10
+tour scn=7 ms=9301 steps=103 spikes=12542 edges=4218165 eps=453517 faults=118 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=8 ms=9169 steps=91 spikes=15848 edges=3906544 eps=426059 faults=133 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=9 ms=9046 steps=1567 spikes=7620 edges=2248331 eps=248544 faults=133 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=10 ms=9022 steps=154 spikes=5741 edges=2258907 eps=250377 faults=134 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=11 ms=9043 steps=468 spikes=4578 edges=1110097 eps=122757 faults=134 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=12 ms=9064 steps=217 spikes=9697 edges=2523681 eps=278429 faults=134 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=13 ms=9093 steps=483 spikes=6033 edges=1241348 eps=136516 faults=134 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=14 ms=9061 steps=462 spikes=4793 edges=929182 eps=102547 faults=134 promo=0 gens=0 ioerr=0 render_ms=12
+tour scn=15 ms=9075 steps=1008 spikes=701 edges=302988 eps=33387 faults=134 promo=0 gens=0 ioerr=0 render_ms=12
+exit frames=2399 spikes=9602 eps=534604
+exit clock_ms=342339 rtc_s=342 render_ms=12
+exit faults=138 flushes=0 step=87

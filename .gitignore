@@ -1,0 +1,23 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Everything the make targets produce (host binaries, calculator files, device fetches)
+build/
+
+# Connectome source tables (1.1 GB) and derived caches
+data/
+
+# Third-party toolchain and libraries: see README, "What is not in the repository"
+vendor/
+
+# Exploration scripts from development, not maintained
+scratch/
+
+# Machine-local settings
+.claude/settings.local.json
+.DS_Store
